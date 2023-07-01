@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor bootstrap Template</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- preloader  -->
+    <div id="preloader">
+        <span></span>
+    </div>
+    
+    <!-- start header -->
+    <header>
+       <div class="container">
+        <div class="header__nav-bar">
+            <div class="header__logo">
+                <a href="index.html">Mentor</a>
+            </div>
+            <div class="header__nav">
+                <ul class="header__minue">
+                    <li class="minue__item"><a class="minue__link  minue__link--active" href="index.html">Home</a></li>
+                    <li class="minue__item"><a class="minue__link" href="about.html">About</a></li>
+                    <li class="minue__item"><a class="minue__link" href="courses.html">Courses</a></li>
+                    <li class="minue__item"><a class="minue__link" href="trainers.html">Trainer</a></li>
+                    <li class="minue__item"><a class="minue__link" href="events.html">Events</a></li>
+                    <li class="minue__item"><a class="minue__link" href="pricing.html">Pricing</a></li>
+                    <li class="minue__item minue__item--dropdown"><a class="minue__link" href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="header__subminue">
+                            <li class="subminue__item"><a class="subminue__link" href="#">Drop down1</a></li>
+                            <li class="subminue__item subminue__item--dropdown"><a class="subminue__link" href="#">Deep Drop Down <i class="fa-solid fa-angle-right"></i></a>
+                                <ul class="header__Deepminue">
+                                    <li class="Deepminue__item"><a class="Deepminue__link" href="#">Deep Drop Down1</a></li>
+                                    <li class="Deepminue__item"><a class="Deepminue__link" href="#">Deep Drop Down2</a></li>
+                                    <li class="Deepminue__item"><a class="Deepminue__link" href="#">Deep Drop Down3</a></li>
+                                    <li class="Deepminue__item"><a class="Deepminue__link" href="#">Deep Drop Down4</a></li>
+                                    <li class="Deepminue__item"><a class="Deepminue__link" href="#">Deep Drop Down5</a></li>
+                                </ul>
+                            </li>
+                            <li class="subminue__item"><a class="subminue__link" href="#">Drop down2</a></li>
+                            <li class="subminue__item"><a class="subminue__link" href="#">Drop down3</a></li>
+                            <li class="subminue__item"><a class="subminue__link" href="#">Drop down4</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="minue__item"><a class="minue__link" href="contact.html">Contact</a></li>
+                    <a class="nav__link btn--rounded header__btn--rounded"href="#">Get Started</a>
+                </ul>
+                    <span class="hader__close-icon " id="close-icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+            </div>
+            <div class="header__bar-icon">
+                <span>
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+           </div>
+       </div>
+    </header>
+    <!-- end header -->
+    <div class="scroll-to-top">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <!-- start hero-area -->
+    <section id="Home" class="Hero">
+        <div class="container">
+            <div class="Hero__content animate__animated">
+                <h1>Learning Today,<br>Leading Tomorrow</h1>
+                <h2>We are team of talented designers making websites with Bootstrap</h2>
+                <a href="#" class="Hero__btn Hero__btn--rounded btn--rounded">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- end hero-area -->
+
+    <!-- start about-area  -->
+    <section id="About" class="About pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="About__text-content animate__animated opacity-0 animation-delay">
+                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p class="About__disciption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ul>
+                            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="About__img animate__animated opacity-0 animation-delay">
+                        <img src="images/about.jpg" alt="about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about-area  -->
+
+    <!-- start counter-area -->
+    <section class="counters" id="counters">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-3 col-6">
+                    <div class="counter__box text-center">
+                        <span data-counter="1232">0</span>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-6">
+                    <div class="counter__box text-center">
+                        <span data-counter="64">0</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-6">
+                    <div class="counter__box text-center">
+                        <span data-counter="42">0</span>
+                        <p>Events</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-6">
+                    <div class="counter__box text-center">
+                        <span data-counter="15">0</span>
+                        <p>Trainers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end counter-area -->
+
+    <!-- start why-choose-us  -->
+    <section class="choose-us" id="ChoosUs">
+        <div class="container">
+            <div class="choose-us__content">
+                <div class="row align-items-xl-center">
+                    <div class="col-lg-4 col-12 align-items-stretch d-flex">
+                        <div class="choose-us__main-content mb-4 animate__animated opacity-0">
+                            <h3>Why Choose Mentor?</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                            <a href="#" class="Choose__btn btn--rounded">
+                                Learn More
+                                <i class="fa-solid fa-angle-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="choose-us__boxes animate__animated animation-delay opacity-0">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-12">
+                                    <div class="choose__box">
+                                        <span class="choose__box-icon"><i class="fa-regular fa-file-lines"></i></span>
+                                        <h4>Corporis voluptates sit</h4>
+                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-12">
+                                    <div class="choose__box">
+                                        <span class="choose__box-icon"><i class="fa-solid fa-cube"></i></span>
+                                        <h4>Ullamco laboris ladore pan</h4>
+                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-12">
+                                    <div class="choose__box">
+                                        <span class="choose__box-icon"><i class="fa-regular fa-images"></i></span>
+                                        <h4>Labore consequatur</h4>
+                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end why-choose-us  -->
+
+    <!-- start features-area  -->
+    <section class="features pb-5 t-scale-0" id="Features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-store text-warning fs-3"></i></span>
+                        <a href="#">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-chart-bar text-primary fs-3"></i></span>
+                        <a href="#">Dolor Sitema</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-regular fa-calendar text-danger fs-3"></i></span>
+                        <a href="#">Sed perspiciatis</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-paint-roller fs-3" style="color:#d63384"></i></span>
+                        <a href="#">Magni Dolores</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-database fs-3" style="color:#0dcaf0"></i></span>
+                        <a href="#">Nemo Enim</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-circle-notch fs-3" style="color:#ffc107"></i></span>
+                        <a href="#">Eiusmod Tempor</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-file-lines fs-3" style="color:#20c997"></i></span>
+                        <a href="#">Midela Teren</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-house-medical fs-3" style="color:#6610f2"></i></span>
+                        <a href="#">Pira Neve</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-anchor fs-3" style="color:brown"></i></span>
+                        <a href="#">Dirada Pack</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-compact-disc fs-3" style="color:#d63384"></i></span>
+                        <a href="#">Moton Ideal</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-wifi fs-3" style="color:#fd7e14"></i></span>
+                        <a href="#">Verdo Park</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="features__feature">
+                        <span><i class="fa-solid fa-fingerprint fs-3" style="color:rgb(64, 159, 116);"></i></span>
+                        <a href="#">Flavor Nivelanda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end features-area  -->
+
+    <!-- start courses  -->
+    <section  id="Courses" class="courses py-5">
+        <div class="container">
+            <div class="courses__title mb-5 animate__animated opacity-0">
+                <span>COURSES</span>
+                <h2 class="fw-bold">POPULAR COURSES</h2>
+            </div>
+            <div class="courses__cards animate__animated opacity-0 animation-delay">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="courses__card">
+                            <div class="course__card-img">
+                                <img src="images/course-1.jpg" alt="">
+                            </div>
+                            <div class="course__content p-2">
+                                <div class="course__card-title">
+                                    <h4>Web Development</h4>
+                                    <p>$169</p>
+                                </div>
+                                <div class="course__card-descreption">
+                                    <h5><a href="#">Website Design</a></h5>
+                                    <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                </div>
+                                <div class="course__trainer-info">
+                                    <div class="traniner-profile">
+                                        <img src="images/trainer-1.jpg" alt="trainer">
+                                        <h4 class="traniner-profile__name">Antonio</h4>
+                                    </div>
+                                    <div class="traniner-rank">
+                                        <i class="fa-regular fa-user"></i>
+                                        <span class="me-3">50</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span>65</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="courses__card">
+                            <div class="course__card-img">
+                                <img src="images/course-2.jpg" alt="">
+                            </div>
+                            <div class="course__content p-2">
+                                <div class="course__card-title">
+                                    <h4>Marketing</h4>
+                                    <p>$225</p>
+                                </div>
+                                <div class="course__card-descreption">
+                                    <h5><a href="#">Search Engine Optimization</a></h5>
+                                    <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                </div>
+                                <div class="course__trainer-info">
+                                    <div class="traniner-profile">
+                                        <img src="images/trainer-2.jpg" alt="trainer">
+                                        <h4 class="traniner-profile__name">Lana</h4>
+                                    </div>
+                                    <div class="traniner-rank">
+                                        <i class="fa-regular fa-user"></i>
+                                        <span class="me-3">35</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span>42</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="courses__card">
+                            <div class="course__card-img">
+                                <img src="images/course-3.jpg" alt="">
+                            </div>
+                            <div class="course__content p-2">
+                                <div class="course__card-title">
+                                    <h4>Content</h4>
+                                    <p>$180</p>
+                                </div>
+                                <div class="course__card-descreption">
+                                    <h5><a href="#">Content</a></h5>
+                                    <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                </div>
+                                <div class="course__trainer-info">
+                                    <div class="traniner-profile">
+                                        <img src="images/trainer-3.jpg" alt="trainer">
+                                        <h4 class="traniner-profile__name">Antonio</h4>
+                                    </div>
+                                    <div class="traniner-rank">
+                                        <i class="fa-regular fa-user"></i>
+                                        <span class="me-3">20</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span>85</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end courses  -->
+
+    <!-- start team  -->
+    <section class="team py-5 animate__animated t-scale-0 transition" id="Trainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__member">
+                        <div class="team__member-img">
+                            <img src="images/trainer-1.jpg" alt="">
+                        </div>
+                        <div class="team__member-content">
+                            <h3>Walter White</h3>
+                            <span>Web Development</span>
+                            <p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                            <div class="member__social-iocn">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__member">
+                        <div class="team__member-img">
+                            <img src="images/trainer-2.jpg" alt="">
+                        </div>
+                        <div class="team__member-content">
+                            <h3>Sarah Jhinson</h3>
+                            <span>Marketing</span>
+                            <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+                            <div class="member__social-iocn">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__member">
+                        <div class="team__member-img">
+                            <img src="images/trainer-3.jpg" alt="">
+                        </div>
+                        <div class="team__member-content">
+                            <h3>William Anderson</h3>
+                            <span>Content</span>
+                            <p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+                            <div class="member__social-iocn">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team  -->
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__location mb-3">
+                        <h2 class="footer__logo">Mentor</h2>
+                        <p>A108 Adam Street<br>
+                            New York, NY 535022<br>
+                            United States<br><br>
+                        </p>
+                        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+                        <p><strong>Email:</strong> info@example.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer__useful-link  mb-3">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Home</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>About Us</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span></span>Services</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Terms of service</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Privacy policy</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__useful-link  mb-3">
+                        <h2>Our Services</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Web Design</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Web Development</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span></span> Product Management</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Marketing</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i><span>Graphic Design</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer__newletter">
+                        <h2>Join Our Newsletter</h2>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="">
+                            <input type="Email" name="Email">
+                            <input type="submit" value="Subscribe" class="btn--rounded">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                   <div class="col-md-6 col-12">
+                    <p>
+                        <i class="fa-regular fa-copyright"></i> Copyright Mentor. All Rights Reserved<br>
+                            Designed by <a href="#"> Eraasoft</a>
+                        </p>
+                   </div>
+                    <div class="col-md-6 col-12">
+                        <div class="footer__social-icons">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#" class="btn--rounded"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="btn--rounded"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="btn--rounded"><i class="fa-brands fa-skype"></i></a>
+                                    <a href="#" class="btn--rounded"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </footer>
+    <!-- end footer  -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/plugin.js"></script>
+</body>
+</html>
